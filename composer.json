@@ -1,0 +1,21 @@
+{
+    "name": "willian/monsternizer",
+    "description": "create a fake avatar",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Willian C. Klein",
+            "email": "willian.empari@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+      "classmap":[],
+      "psr-4":{
+        "Nagahshi\\Monsternizer\\":"src/"
+      }
+    },
+    "require": {
+      "illuminate/support": "~5"
+    }
+}
